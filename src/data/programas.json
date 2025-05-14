@@ -1,0 +1,31 @@
+{
+    "Cajamarca": [
+      {
+        "titulo": "Cumbemayo Mágico",
+        "descripcion": "Tour arqueológico y paisajístico.",
+        "imagen": "/images/cumbemayo.jpg",
+        "enlace": "/paquetes/cumbemayo"
+      },
+      {
+        "titulo": "Cumbemayo Mágico",
+        "descripcion": "Tour arqueológico y paisajístico.",
+        "imagen": "/images/cumbemayo.jpg",
+        "enlace": "/paquetes/cumbemayo"
+      }
+    ],
+    "Cusco": [
+      {
+        "titulo": "Machu Picchu Express",
+        "descripcion": "Descubre la maravilla del mundo en 1 día.",
+        "imagen": "/images/machupicchu.jpg",
+        "enlace": "/paquetes/machu-picchu"
+      },
+      {
+        "titulo": "Valle Sagrado",
+        "descripcion": "Una ruta llena de historia y cultura.",
+        "imagen": "/images/valle-sagrado.jpg",
+        "enlace": "/paquetes/valle-sagrado"
+      }
+    ]
+  }
+  
