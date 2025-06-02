@@ -1,0 +1,176 @@
+---
+import BreadcrumbAruba from "../../components/BreadcrumbAruba.astro";
+import Navbar from "../../components/Navbar.astro";
+import Layout from "../../layouts/Layout.astro"
+---
+<Layout>
+    <Navbar />
+    <BreadcrumbAruba />
+    <section class="bg-white py-16 px-4">
+        <div class="max-w-6xl mx-auto">
+            <!-- Título -->
+            <header class="text-center mb-16">
+                <h2 class="text-3xl sm:text-5xl font-extrabold text-gray-900 tracking-tight leading-snug mb-3">
+                    Aruba 4D/3N
+                </h2>
+
+                <div class="inline-flex items-center gap-2 px-4 py-1 bg-gray-100 rounded-full shadow-sm text-sm sm:text-base text-gray-700 font-medium">
+                    <i class="fas fa-certificate text-red-500"></i>
+                    Constancia N° 028-2017-GRJ-DIRCETUR (MINCETUR)
+                </div>
+            </header>
+
+            <!-- Itinerario -->
+            <div>
+                <!-- Día 1 -->
+                <article class="relative border-l-4 border-green-600 bg-white rounded-2xl shadow-md p-6 mb-10 transition hover:shadow-lg">
+                    <!-- Línea temporal -->
+                    <span class="absolute -left-2.5 top-6 w-4 h-4 bg-green-600 border-4 border-white rounded-full shadow"></span>
+
+                    <!-- Título del día -->
+                    <h4 class="text-2xl sm:text-3xl font-extrabold text-green-800 leading-tight mb-6 tracking-tight">
+                        Condiciones generales
+                    </h4>
+
+                    <!-- Lista de eventos horarios -->
+                    <div class="rounded-md px-6 py-4">
+                        <h3 class="text-base font-semibold text-orange-600 mb-2">Notas importantes:</h3>
+                        <ul class="space-y-4 text-sm text-gray-800 list-disc list-inside">
+                            <li>
+                                Esta cotización debe ser prepagada con <strong>$100.00 dólares</strong> por pasajero una vez solicitado el bloqueo.
+                            </li>
+                            <li>
+                                <strong>
+                                    NO REEMBOLSABLE
+                                </strong>
+                            </li>
+                            <li>
+                                Deberá ser enviado el <strong>rooming list</strong> del grupo de ser aceptado en las fechas asignadas.
+                            </li>
+                            <li>
+                                La presente es una cotización no implica reserva alguna.
+                            </li>
+                            <li>
+                                Si varían las fechas o el número de pasajeros, debemos cotizar nuevamente.
+                            </li>
+                            <li>
+                                El pago es de total acuerdo con las fechas asignadas; no es válido pasada la  fecha estimada; está sujeto a fecha de solicitud del grupo.
+                            </li>
+                            <li>
+                                Se indicarán fechas de pago.
+                            </li>
+                            <li>
+                                La presente cotización no implica reserva y puede variar de acuerdo a las regulaciones del hotel y de la línea aérea.
+                            </li>
+                        </ul>
+                    </div>
+                </article>
+
+                <!-- Día 2 -->
+                <article class="relative border-l-4 border-green-600 bg-white rounded-2xl shadow-md p-6 mb-10 transition hover:shadow-lg">
+                    <!-- Línea temporal -->
+                    <span class="absolute -left-2.5 top-6 w-4 h-4 bg-green-600 border-4 border-white rounded-full shadow"></span>
+
+                    <!-- Título del día -->
+                    <h4 class="text-2xl sm:text-3xl font-bold text-green-800 leading-tight mb-6 tracking-tight">
+                        CUOTAS DE PAGO
+                    </h4>
+
+                    <!-- Lista de eventos horarios -->
+                    <ul class="list-disc space-y-5 text-gray-800">
+                        <li>
+                            Las cuotas de pago serán pactadas con fechas asignadas una vez liquidado el grupo.
+                        </li>
+
+                        <li>
+                            En caso de incumplir la cuota y la fecha pactada se cobrará la mora correspondiente que indica.
+                        </li>
+
+                        <li>
+                           El Grupo deberá estar pagado en su totalidad y con previo rooming list 20 días antes de la fecha de salida.
+                        </li>
+                    </ul>
+                </article>
+
+                <!-- Día 3 -->
+                <article class="relative border-l-4 border-green-600 bg-white rounded-2xl shadow-md p-6 mb-10 transition hover:shadow-lg">
+                    <!-- Línea temporal -->
+                    <span class="absolute -left-2.5 top-6 w-4 h-4 bg-green-600 border-4 border-white rounded-full shadow"></span>
+
+                    <!-- Título del día -->
+                    <h4 class="text-2xl sm:text-3xl font-bold text-green-800 leading-tight mb-6 tracking-tight">
+                        ANULACIONES
+                    </h4>
+
+                    <!-- Lista de eventos horarios -->
+                    <ul class="list-disc space-y-5 text-gray-800">
+                        <li>
+                            Anulación una vez confirmado el grupo se indicará las penalizaciones correspondiente de acuerdo a línea aérea y servicios.
+                        </li>
+                        <li>
+                            Anulaciones dentro de los 45 días previos al inicio del viaje se penalizara al 100% del pago total.
+                        </li>
+                    </ul>
+                </article>
+
+                <article class="relative border-l-4 border-green-600 bg-white rounded-2xl shadow-md p-6 mb-10 transition hover:shadow-lg">
+                    <!-- Línea temporal -->
+                    <span class="absolute -left-2.5 top-6 w-4 h-4 bg-green-600 border-4 border-white rounded-full shadow"></span>
+
+                    <!-- Título del día -->
+                    <h4 class="text-2xl sm:text-3xl font-bold text-green-800 leading-tight mb-6 tracking-tight">
+                        CAMBIOS
+                    </h4>
+
+                    <!-- Lista de eventos horarios -->
+                    <ul class="list-disc space-y-5 text-gray-800">
+                        <li>
+                            No reembolsable, no endosable, ni trasferible, no se permiten cambios una vez realizado el prepago, no se puede usar como parte de pago de otros grupos.
+                        </li>
+                        <li>
+                            Los precios no incluyen: Gastos personales, servicio a cuartos, llamadas telefónicas lavandería, maleteros, propina nada claramente no especificado.
+                        </li>
+                        <li>
+                            Los boletos y vouchers serán entregados 48 hrs. Antes de la salida.
+                        </li>
+                        <li>
+                            Tarifas sujetas a variación y cambio sin previo aviso.
+                        </li>
+                    </ul>
+                </article>
+            </div>
+            <div class="bg-white rounded-2xl shadow-md p-6 mb-10 border-l-4 border-green-600">
+                <h3 class="text-3xl font-extrabold text-green-800 mb-6 tracking-tight">
+                    Requisito para el viaje
+                </h3>
+
+                <ul class="list-disc list-inside space-y-2 text-gray-800 mb-6">
+                    <li>Pasaporte con vigencia 6 meses.</li>
+                    <li>Permiso Notarial del Papá y Mamá para menor que viaje solo.</li>
+                    <li>Permiso Notarial del Papá si viaja solo con la Mamá.</li>
+                    <li>Permiso del juez de menores en caso de que uno de los padres estuviese fuera del país.</li>
+                </ul>
+            </div>
+
+            <div class="bg-white rounded-2xl shadow-md p-6 mb-10 border-l-4 border-green-600">
+                <h3 class="text-3xl font-extrabold text-green-800 mb-6 tracking-tight">
+                    El Plan Incluye
+                </h3>
+
+                <ul class="list-disc list-inside space-y-2 text-gray-800 mb-6">
+                    <li>Boleto aéreo Lima / Aruba / Lima inc. IGV e impuestos por (BOLSO DE MANO Y EQUIPAJE DE MANO).</li>
+                    <li>Traslados Aeropuerto / Hotel / Aeropuerto.</li>
+                    <li>03 noches de alojamiento (auditorio & barra libre).</li>
+                    <li>Bienvenida con grupo de animación con cocktail de bienvenida.</li>
+                    <li>Sistema de alimentación ALL INCLUSIVE.</li>
+                    <li>Crucero en catamarán al atardecer (opc).</li>
+                    <li>Visita a la isla Aruba (opc).</li>
+                    <li>Expedicion en sudmarino Atlantis (opc).</li>
+                    <li>Tours nocturno (opc).</li>
+                    <li>Show nocturnos diarios.</li>
+                    <li>Tarjeta de asistencia internacional.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+</Layout>
