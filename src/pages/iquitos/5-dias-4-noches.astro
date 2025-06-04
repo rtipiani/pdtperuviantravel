@@ -1,0 +1,166 @@
+---
+import BreadcrumbIquitos from "../../components/BreadcrumbIquitos.astro";
+import Navbar from "../../components/Navbar.astro";
+import Layout from "../../layouts/Layout.astro";
+import Footer from "../../components/Footer.astro";
+---
+<Layout>
+    <Navbar />
+    <BreadcrumbIquitos />
+    <section class="bg-white py-16 px-4">
+        <div class="max-w-6xl mx-auto">
+            <!-- Título -->
+            <header class="text-center mb-16">
+                <h2 class="text-3xl sm:text-5xl font-extrabold text-gray-900 tracking-tight leading-snug mb-3">
+                    Iquitos Misterioso 5D/4N
+                </h2>
+
+                <div class="inline-flex items-center gap-2 px-4 py-1 bg-gray-100 rounded-full shadow-sm text-sm sm:text-base text-gray-700 font-medium">
+                    <i class="fas fa-certificate text-red-500"></i>
+                    Constancia N° 028-2017-GRJ-DIRCETUR (MINCETUR)
+                </div>
+            </header>
+
+            <div class="grid md:grid-cols-2 gap-6 mb-14 text-gray-700 text-base font-medium">
+                <div class="bg-gray-50 p-6 rounded-2xl shadow hover:shadow-md transition">
+                    <h3 class="text-lg font-semibold text-gray-800 mb-2">Ruta</h3>
+                    <p>VUELO / MANCORA HOTEL PLAYA – MANGLARES DE TUMBES - ECUADOR – PIURA/CATACAOS/VIAJE</p>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-2xl shadow hover:shadow-md transition space-y-2">
+                    <p><strong>Duración:</strong> 03 días / 02 noches</p>
+                    <p><strong>Tipo de Cliente:</strong> Grupo</p>
+                    <p><strong>Tipo de Servicio:</strong> Privado</p>
+                </div>
+            </div>
+
+            <!-- Itinerario -->
+            <div>
+
+                <!-- Día 1 -->
+                <article class="relative border-l-4 border-green-600 bg-white rounded-2xl shadow-md py-4 px-6 mb-6 transition hover:shadow-lg">
+                    <!-- Línea temporal -->
+                    <span class="absolute -left-2.5 top-6 w-4 h-4 bg-green-600 border-4 border-white rounded-full shadow"></span>
+
+                    <!-- Título del día -->
+                    <h4 class="text-2xl sm:text-3xl font-extrabold text-green-800 mb-3 tracking-tight">
+                        Día 01: Vuelo a Iquitos - Día de Paseo
+                    </h4>
+
+                    <!-- Lista de eventos -->
+                    <ul class="space-y-1 text-gray-800">
+                        <li class="flex items-start gap-4 group hover:bg-green-50 p-1.5 rounded-md transition">
+                            <time class="text-sm font-bold text-green-700 min-w-[90px]">--:-- hrs</time>
+                            <p>Vuelo y Llegada a Iquitos, recepción en el aeropuerto y traslado al Hotel. Visita Iquitos a sus alrededores, Plazas, catedrales, miradores.</p>
+                        </li>
+                    </ul>
+                </article>
+
+                <!-- Día 2 -->
+                <article class="relative border-l-4 border-green-600 bg-white rounded-2xl shadow-md p-6 mb-10 transition hover:shadow-lg">
+                    <!-- Línea temporal -->
+                    <span class="absolute -left-2.5 top-6 w-4 h-4 bg-green-600 border-4 border-white rounded-full shadow"></span>
+
+                    <!-- Título del día -->
+                    <h4 class="text-2xl sm:text-3xl font-extrabold text-green-800 mb-4 tracking-tight">
+                        Día 02: Laguna Quistococha y Manatíes
+                    </h4>
+
+                    <!-- Lista de eventos horarios -->
+                    <ul class="space-y-0 text-gray-800">
+                        <li class="flex items-start gap-4 group hover:bg-green-50 p-2 rounded-lg transition">
+                            <p>Te recogeremos en tu hotel para comenzar el tour en el que pasaremos por los puntos más importantes de la ciudad de Iquitos. El guía nos entregará información valiosa sobre algunos edificios de carácter histórico y sobre la ciudad en general, que tuvo su época de gloria a fines del siglo XIX y principios del siglo XX debido a la fiebre del caucho. Luego, tomaremos la carretera que une Iquitos con Nauta para realizar una parada en el Centro ACOBIA, lugar de conservación de manatíes. Estos mamíferos acuáticos, también conocidos como vacas marinas, son rescatados por un grupo de biólogos para su protección, debido a que sufren por la depredación del hombre. Luego de verlos, y obtener información sobre su conducta y ciclo de vida, continuaremos nuestro tour hacia el parque zoológico nacional Quistococha, donde veremos diferentes animales que habitan la región del Amazonas. También, podremos bañarnos en la playa artificial que existe en el lugar. Después de este momento, regresaremos a Iquitos para terminar la actividad.</p>
+                        </li>
+                    </ul>
+                </article>
+
+                <!-- Día 2 -->
+                <article class="relative border-l-4 border-green-600 bg-white rounded-2xl shadow-md p-6 mb-10 transition hover:shadow-lg">
+                    <!-- Línea temporal -->
+                    <span class="absolute -left-2.5 top-6 w-4 h-4 bg-green-600 border-4 border-white rounded-full shadow"></span>
+
+                    <!-- Título del día -->
+                    <h4 class="text-2xl sm:text-3xl font-extrabold text-green-800 mb-4 tracking-tight">
+                        Día 03: Full Day Iquitos
+                    </h4>
+
+                    <!-- Lista de eventos horarios -->
+                    <ul class="space-y-0 text-gray-800">
+                        <li class="flex items-start gap-4 group hover:bg-green-50 p-2 rounded-lg transition">
+                            <p>Te pasaremos a buscar a tu hotel para comenzar este tour. El Full Day Iquitos iniciará con un recorrido por esta ciudad cuya fundación no se conoce con exactitud. Lo que sí sabemos, es que tuvo su mayor apogeo durante la fiebre del caucho en la región, a fines del siglo XIX y principios del siglo XX. Conoceremos los principales atractivos turísticos e históricos, para luego trasladarnos hacia Nauta. En el camino, visitaremos el Centro ACOBIA, lugar donde un grupo de biólogos rescata y ayuda a manatíes para su conservación. También, visitaremos el parque zoológico nacional Quistococha, donde veremos animales de la selva amazónica y, también, disfrutaremos de la playa artificial del lugar.</p>
+                        </li>
+                        <li class="flex items-start gap-4 group hover:bg-green-50 p-2 rounded-lg transition">
+                            Posteriormente, tendremos nuestro almuerzo, luego de lo que continuaremos la experiencia yendo hacia el puerto Bellavista Nanay, donde embarcaremos para navegar hacia Padre Cocha, donde se encuentra una granja de mariposas llamada Pilpintuwasi. En este lugar existen 42 especies de mariposas, de las que podremos reconocer algunas. Luego, visitaremos la comunidad Los Boras, quienes nos enseñarán sobre sus costumbres y folklore
+                        </li>
+                        <li class="flex items-start gap-4 group hover:bg-green-50 p-2 rounded-lg transition">
+                            También, tendremos tiempo de visitar un santuario de animales en el que nos aproximaremos a diversas especies, como la anaconda, oso perezoso y diferentes monos. Luego, embarcaremos para comenzar el retorno a la ciudad de Iquitos, donde termina nuestra actividad.
+                        </li>
+                    </ul>
+                </article>
+
+                <article class="relative border-l-4 border-green-600 bg-white rounded-2xl shadow-md p-6 mb-10 transition hover:shadow-lg">
+                    <!-- Línea temporal -->
+                    <span class="absolute -left-2.5 top-6 w-4 h-4 bg-green-600 border-4 border-white rounded-full shadow"></span>
+
+                    <!-- Título del día -->
+                    <h4 class="text-2xl sm:text-3xl font-extrabold text-green-800 mb-4 tracking-tight">
+                        Día 04: Full Day Amazonas
+                    </h4>
+
+                    <!-- Lista de eventos horarios -->
+                    <ul class="space-y-0 text-gray-800">
+                        <li class="flex items-start gap-4 group hover:bg-green-50 p-2 rounded-lg transition">
+                            <p>La recogida será en tu hotel para salir de Iquitos tomando el bote en el que navegaremos por el río Amazonas hasta la desembocadura del río Nanay. Así comienza este Full Day Amazonas, tratando de identificar los delfines rosados de agua dulce. Posteriormente, continuaremos navegando hacia un refugio rústico natural y visitaremos una tribu yagua, uno de los grupos étnicos más antiguos de la Amazonia. Ellos nos enseñarán algunas de sus costumbres, bailes e idioma. También, tendremos la posibilidad de practicar puntería con cerbatana.</p>
+                        </li>
+                        <li class="flex items-start gap-4 group hover:bg-green-50 p-2 rounded-lg transition">
+                            Después del almuerzo en el refugio, continuaremos navegando el río Amazonas hasta el pequeño pueblo de Barrio Florido, comunidad que se dedica a la pesca y la agricultura. Desde este lugar, caminaremos hasta el fundo Pedrito, donde podremos ver diferentes animales como caimanes y paiches. También, veremos la Victoria regia, la planta acuática más grande del mundo. Nuestra última visita del día será el Santuario de Animales, donde podremos ver una anaconda, osos perezosos y diferentes monos. Luego de esto, abordaremos nuestro bote para retornar a Iquitos, donde finaliza la actividad
+                        </li>
+                    </ul>
+                </article>
+
+                <article class="relative border-l-4 border-green-600 bg-white rounded-2xl shadow-md p-6 mb-10 transition hover:shadow-lg">
+                    <!-- Línea temporal -->
+                    <span class="absolute -left-2.5 top-6 w-4 h-4 bg-green-600 border-4 border-white rounded-full shadow"></span>
+
+                    <!-- Título del día -->
+                    <h4 class="text-2xl sm:text-3xl font-extrabold text-green-800 mb-4 tracking-tight">
+                        Día 04: Full Day Amazonas
+                    </h4>
+
+                    <!-- Lista de eventos horarios -->
+                    <ul class="space-y-0 text-gray-800">
+                        <li class="flex items-start gap-4 group hover:bg-green-50 p-2 rounded-lg transition">
+                            <time class="text-sm font-semibold text-green-700 min-w-[80px]">08:30 hrs</time>
+                            <p>Desayuno y día libre ideal para disfrutar del hotel (piscina) y hacer algunas comprar antes de salir de viaje.</p>
+                        </li>
+                    </ul>
+                </article>
+            </div>
+
+            <div class="bg-white rounded-2xl shadow-md p-6 mb-10 border-l-4 border-green-600">
+                <h3 class="text-3xl font-extrabold text-green-800 mb-6 tracking-tight">
+                    Nuestro Sistema Incluye <br>
+                    <span class="text-base font-semibold text-green-700">(Sistema todo incluido – Pago único)</span>
+                </h3>
+
+                <ul class="space-y-0 text-gray-800">
+                    <li class="flex items-start gap-4 group hover:bg-green-50 p-2 rounded-lg transition">Vuelo Lima – Iquitos – Lima</li>
+                    <li class="flex items-start gap-4 group hover:bg-green-50 p-2 rounded-lg transition">Transporte Turístico en bus privado.</li>
+                    <li class="flex items-start gap-4 group hover:bg-green-50 p-2 rounded-lg transition">Traslados IN/OUT.</li>
+                    <li class="flex items-start gap-4 group hover:bg-green-50 p-2 rounded-lg transition">04 Noches de alojamiento hotel *** con piscina.</li>
+                    <li class="flex items-start gap-4 group hover:bg-green-50 p-2 rounded-lg transition">01 Noche de recreación nocturna.</li>
+                    <li class="flex items-start gap-4 group hover:bg-green-50 p-2 rounded-lg transition">04 Desayunos.</li>
+                    <li class="flex items-start gap-4 group hover:bg-green-50 p-2 rounded-lg transition">05 Días de tours (según itinerario).</li>
+                    <li class="flex items-start gap-4 group hover:bg-green-50 p-2 rounded-lg transition">Guía local de turismo.</li>
+                    <li class="flex items-start gap-4 group hover:bg-green-50 p-2 rounded-lg transition">01 personal de la agencia que realiza el viaje completo con la promoción para dar. seguridad en cumplimiento del tour.</li>
+                    <li class="flex items-start gap-4 group hover:bg-green-50 p-2 rounded-lg transition">Personal de primeros auxilios.</li>
+                    <li class="flex items-start gap-4 group hover:bg-green-50 p-2 rounded-lg transition">Tour mencionado en el programa, Botiquín de primeros auxilios.</li>
+                    <li class="flex items-start gap-4 group hover:bg-green-50 p-2 rounded-lg transition">Guiado Profesional y entretenimiento turístico.</li>
+                    <li class="flex items-start gap-4 group hover:bg-green-50 p-2 rounded-lg transition">Boleto de ingreso a todos los lugares turísticos.</li>
+                    <li class="flex items-start gap-4 group hover:bg-green-50 p-2 rounded-lg transition">Movilidad con Póliza de seguro SOAT.</li>
+                    <li class="flex items-start gap-4 group hover:bg-green-50 p-2 rounded-lg transition">Asistencia permanente y personalizada.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+</Layout>
+<Footer />

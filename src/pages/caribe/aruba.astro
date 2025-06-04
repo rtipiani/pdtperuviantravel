@@ -1,7 +1,8 @@
 ---
 import BreadcrumbAruba from "../../components/BreadcrumbAruba.astro";
 import Navbar from "../../components/Navbar.astro";
-import Layout from "../../layouts/Layout.astro"
+import Layout from "../../layouts/Layout.astro";
+import Footer from "../../components/Footer.astro";
 ---
 <Layout>
     <Navbar />
@@ -28,14 +29,14 @@ import Layout from "../../layouts/Layout.astro"
                     <span class="absolute -left-2.5 top-6 w-4 h-4 bg-green-600 border-4 border-white rounded-full shadow"></span>
 
                     <!-- Título del día -->
-                    <h4 class="text-2xl sm:text-3xl font-extrabold text-green-800 leading-tight mb-6 tracking-tight">
+                    <h4 class="text-2xl sm:text-3xl font-extrabold text-green-800 leading-tight tracking-tight">
                         Condiciones generales
                     </h4>
 
                     <!-- Lista de eventos horarios -->
                     <div class="rounded-md px-6 py-4">
                         <h3 class="text-base font-semibold text-orange-600 mb-2">Notas importantes:</h3>
-                        <ul class="space-y-4 text-sm text-gray-800 list-disc list-inside">
+                        <ul class="space-y-3 text-sm text-gray-800 list-disc list-inside">
                             <li>
                                 Esta cotización debe ser prepagada con <strong>$100.00 dólares</strong> por pasajero una vez solicitado el bloqueo.
                             </li>
@@ -72,12 +73,12 @@ import Layout from "../../layouts/Layout.astro"
                     <span class="absolute -left-2.5 top-6 w-4 h-4 bg-green-600 border-4 border-white rounded-full shadow"></span>
 
                     <!-- Título del día -->
-                    <h4 class="text-2xl sm:text-3xl font-bold text-green-800 leading-tight mb-6 tracking-tight">
+                    <h4 class="text-2xl sm:text-3xl font-bold mb-2 text-green-800 leading-tight tracking-tight">
                         CUOTAS DE PAGO
                     </h4>
 
                     <!-- Lista de eventos horarios -->
-                    <ul class="list-disc space-y-5 text-gray-800">
+                    <ul class="list-disc space-y-2 text-gray-800">
                         <li>
                             Las cuotas de pago serán pactadas con fechas asignadas una vez liquidado el grupo.
                         </li>
@@ -98,12 +99,12 @@ import Layout from "../../layouts/Layout.astro"
                     <span class="absolute -left-2.5 top-6 w-4 h-4 bg-green-600 border-4 border-white rounded-full shadow"></span>
 
                     <!-- Título del día -->
-                    <h4 class="text-2xl sm:text-3xl font-bold text-green-800 leading-tight mb-6 tracking-tight">
+                    <h4 class="text-2xl sm:text-3xl font-bold text-green-800 leading-tight mb-2 tracking-tight">
                         ANULACIONES
                     </h4>
 
                     <!-- Lista de eventos horarios -->
-                    <ul class="list-disc space-y-5 text-gray-800">
+                    <ul class="list-disc space-y-2 text-gray-800">
                         <li>
                             Anulación una vez confirmado el grupo se indicará las penalizaciones correspondiente de acuerdo a línea aérea y servicios.
                         </li>
@@ -118,12 +119,12 @@ import Layout from "../../layouts/Layout.astro"
                     <span class="absolute -left-2.5 top-6 w-4 h-4 bg-green-600 border-4 border-white rounded-full shadow"></span>
 
                     <!-- Título del día -->
-                    <h4 class="text-2xl sm:text-3xl font-bold text-green-800 leading-tight mb-6 tracking-tight">
+                    <h4 class="text-2xl sm:text-3xl font-bold text-green-800 leading-tight mb-2 tracking-tight">
                         CAMBIOS
                     </h4>
 
                     <!-- Lista de eventos horarios -->
-                    <ul class="list-disc space-y-5 text-gray-800">
+                    <ul class="list-disc space-y-2 text-gray-800">
                         <li>
                             No reembolsable, no endosable, ni trasferible, no se permiten cambios una vez realizado el prepago, no se puede usar como parte de pago de otros grupos.
                         </li>
@@ -140,7 +141,7 @@ import Layout from "../../layouts/Layout.astro"
                 </article>
             </div>
             <div class="bg-white rounded-2xl shadow-md p-6 mb-10 border-l-4 border-green-600">
-                <h3 class="text-3xl font-extrabold text-green-800 mb-6 tracking-tight">
+                <h3 class="text-3xl font-extrabold text-green-800 mb-2 tracking-tight">
                     Requisito para el viaje
                 </h3>
 
@@ -153,7 +154,7 @@ import Layout from "../../layouts/Layout.astro"
             </div>
 
             <div class="bg-white rounded-2xl shadow-md p-6 mb-10 border-l-4 border-green-600">
-                <h3 class="text-3xl font-extrabold text-green-800 mb-6 tracking-tight">
+                <h3 class="text-3xl font-extrabold text-green-800 mb-2 tracking-tight">
                     El Plan Incluye
                 </h3>
 
@@ -174,3 +175,4 @@ import Layout from "../../layouts/Layout.astro"
         </div>
     </section>
 </Layout>
+<Footer />
